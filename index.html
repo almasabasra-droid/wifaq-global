@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>وفاق العالمي | WIFAQ GLOBAL</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#110d23;color:white;font-family:Tahoma,Arial,sans-serif}
+header{padding:22px;text-align:center;background:#211535}
+.logo{font-size:29px;font-weight:bold;color:#ff85bf}
+.hero{text-align:center;padding:65px 20px;background:linear-gradient(135deg,#45216d,#a52b78,#e65d92)}
+h1{font-size:34px}
+p{line-height:1.9}
+button{border:0;border-radius:30px;padding:14px 25px;background:#ff82bd;color:#210d30;font-size:17px;font-weight:bold;cursor:pointer}
+section{padding:30px 20px;max-width:900px;margin:auto}
+h2{text-align:center;color:#ff9dce}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px}
+.card{background:#261a40;padding:25px;border-radius:20px;text-align:center}
+.card b{display:block;margin:12px;font-size:20px}
+.form{max-width:420px;margin:auto;background:#261a40;padding:25px;border-radius:20px}
+input,select{width:100%;padding:14px;margin:8px 0;background:#160e2a;color:white;border:1px solid #705781;border-radius:10px;font-size:16px}
+.form button{width:100%;margin-top:12px}
+.note{font-size:13px;color:#d9c9e5}
+footer{text-align:center;padding:30px;background:#1d1431;color:#dbc9e7}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">❤️ وفاق العالمي</div>
+<p>WIFAQ GLOBAL</p>
+</header>
+
+<div class="hero">
+<h1>الحب يبدأ بلقاء ❤️</h1>
+<p>منصة تعارف عالمية تجمع الأشخاص من مختلف أنحاء العالم.</p>
+<button onclick="document.getElementById('register').scrollIntoView({behavior:'smooth'})">انضم الآن</button>
+</div>
+
+<section>
+<h2>اكتشف عالم وفاق</h2>
+<div class="grid">
+<div class="card">🌍<b>تعارف عالمي</b><p>تعرف على أشخاص من مختلف الدول.</p></div>
+<div class="card">💬<b>دردشة مباشرة</b><p>نعمل على تجهيز محادثات حقيقية بين الأعضاء.</p></div>
+<div class="card">🌐<b>ترجمة فورية</b><p>ميزة مخطط لإضافتها لتسهيل التواصل.</p></div>
+<div class="card">🔒<b>الخصوصية والأمان</b><p>نعمل على إضافة حماية الحسابات والحظر والإبلاغ.</p></div>
+</div>
+</section>
+
+<section id="register">
+<h2>إنشاء حساب جديد</h2>
+<div class="form">
+<input type="text" placeholder="الاسم الكامل">
+<input type="email" placeholder="البريد الإلكتروني">
+<select>
+<option value="">اختر الدولة</option>
+<option>العراق</option>
+<option>السعودية</option>
+<option>الإمارات</option>
+<option>مصر</option>
+<option>دولة أخرى</option>
+</select>
+<select>
+<option value="">العمر</option>
+<option>18 - 25</option>
+<option>26 - 35</option>
+<option>36 - 45</option>
+<option>46 فما فوق</option>
+</select>
+<button onclick="alert('التسجيل الحقيقي قيد التجهيز، ولم يتم حفظ أي بيانات.')">إنشاء حساب</button>
+<p class="note">هذه واجهة أولية للبالغين 18 عاماً فما فوق. سيتم تفعيل التسجيل بعد ربط قاعدة البيانات.</p>
+</div>
+</section>
+
+<footer>
+❤️ وفاق العالمي
+<p>WIFAQ GLOBAL © 2026</p>
+<p>منصة تعارف عالمية قيد التطوير</p>
+</footer>
+
+</body>
+</html>
